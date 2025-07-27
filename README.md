@@ -87,4 +87,6 @@ python your_script_name.py  # แทนที่ 'your_script_name.py' ด้ว
   - ปัญหาเบราว์เซอร์ Playwright: เรียกใช้ playwright install ในเทอร์มินัลของคุณ
   - แดชบอร์ดไม่โหลด/ว่างเปล่า: ตรวจสอบคอนโซลของคุณสำหรับข้อผิดพลาดที่เกี่ยวข้องกับ Python หรือ Dash ตรวจสอบให้แน่ใจว่าคำสั่ง pip install ทั้งหมดเสร็จสมบูรณ์ หากตั้งค่า debug=True ใน app.run() ข้อผิดพลาดโดยละเอียดจะปรากฏในคอนโซลของนักพัฒนาของเบราว์เซอร์
   - ข้อมูลไม่สอดคล้องกัน: กระบวนการดึงข้อมูลขึ้นอยู่กับโครงสร้าง HTML ที่เฉพาะเจาะจง หากเว็บไซต์ MyTCAS เปลี่ยนแปลง ตัวเลือก (selectors) (dt:has-text('ค่าใช้จ่าย') + dd, ul.t-programs > li เป็นต้น) อาจต้องได้รับการอัปเดตในคลาส MyTCASScraper
+  - หาก clone git ไปแล้วไม่เอจไฟล์ mytcas_scrape.xlsx ให้ cd  เข้าโฟลเดอร์ tuition_dashboard ก่อน หรือ copy path จาก PC ของคุณ
+  - พบเจอปัญหา ติดต่อ aroundthegreat@gmail.com
     
